@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback | Alchemy and Muse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header  -->
+  <header>
+    <div class="logo">A&M</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Feedback Section -->
+  <section class="feedback">
+    <div class="feedback-container">
+      <h2>We Value Your Feedback</h2>
+      <p>Let us know what you think about our site or products.</p>
+
+      <form class="feedback-form" action="#" method="post">
+        <label for="rating">Rate your experience:</label><br>
+        <select id="rating" name="rating" required>
+          <option value="">--Select--</option>
+          <option value="5">5 - Excellent</option>
+          <option value="4">4 - Good</option>
+          <option value="3">3 - Okay</option>
+          <option value="2">2 - Poor</option>
+          <option value="1">1 - Bad</option>
+        </select><br><br>
+
+        <textarea name="comments" placeholder="Write your feedback here..." rows="5" required></textarea><br>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="footer-bottom">&copy; 2025 Alchemy and Muse. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
